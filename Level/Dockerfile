@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY server.js server.js
 COPY package.json package.json
-COPY package-log.json package-log.json
+COPY package-lock.json package-lock.json
 
 RUN npm install
 
